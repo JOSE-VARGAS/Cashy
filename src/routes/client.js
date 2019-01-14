@@ -140,10 +140,10 @@ return customer_openpay;
 
 
 function updateCliente(customer){
-  formatClient = formatClient(customer);
+  formatC = formatClient(customer);
   var Openpay = require('openpay');
   var openpay = new Openpay(settings.ID, settings.keyPrivate);
-  openpay.customers.update(customer.inputID, formatClient, function(error, customer){
+  openpay.customers.update(customer.inputID, formatC, function(error, customer){
     if(error){
       return error;
     }else
