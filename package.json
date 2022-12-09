@@ -9,7 +9,7 @@
   "author": "Jose Vargas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
     "express-validation": "^1.0.2",
